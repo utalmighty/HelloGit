@@ -1,0 +1,2 @@
+Inline elements: element which render in same line are called In-line elements eg <a>, <img>, <em>, <strong>
+Block elements: element which render in new line are called block elements eg <p>, <div>
