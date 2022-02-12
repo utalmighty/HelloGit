@@ -42,3 +42,13 @@ let sayHi = function foo(name){ // this is called function Expression, therefore
 //foo(); // Error: not defined
 sayHi("utkarsh") //HELLO utkarsh
 sayHi() // HELLO undefined
+
+
+// IIFE: Immediately invoke function execution
+
+
+let func = (function (a, b){
+    return a+b;
+})(20, 50);
+console.log(func);
+// console.log(func(1, 15)); //Error: IFFEs are not reuseable 😑
