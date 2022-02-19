@@ -20,7 +20,7 @@ let crush = {
     age: 22,
     isCute: true,
     address: {
-        State: "uttar Pradesh",
+        state: "Uttar Pradesh",
         city: "Lucknow"
     },
     sayHi: function(){
@@ -28,3 +28,17 @@ let crush = {
     }
 }
 crush.sayHi();
+
+// "in" keyword in JS
+// Kind of same as Python (but prints just the keys instead of values)
+for(let i in crush) {
+    console.log(i, crush[i]); // will print keys in object and their value 
+    // Here we have to use square notation we can not use dot notation here😉.
+    // We use bracket notation when the key is variable like in array and there we can not use . notation
+}
+let arr = [8,6,4,8,41,15];
+
+for(let i in arr){
+    console.log(i);
+}
+console.log(arr.length);

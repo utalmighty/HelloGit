@@ -52,3 +52,16 @@ let func = (function (a, b){
 })(20, 50);
 console.log(func);
 // console.log(func(1, 15)); //Error: IFFEs are not reuseable 😑
+
+function foo() {
+    return 55;
+}
+console.log(foo);
+
+function threeSum(num) {
+    return num+num+num;
+}
+
+console.log(threeSum(3));
+console.log(threeSum("Ab"));
+console.log(threeSum());

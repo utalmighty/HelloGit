@@ -1,2 +1,7 @@
 Inline elements: element which render in same line are called In-line elements eg <a>, <img>, <em>, <strong>
 Block elements: element which render in new line are called block elements eg <p>, <div>
+
+Execution Context: It is procedures of executing the JS code;
+Execution Context consist of: Memory Creation Phase and Code Execution Phase
+Memory Creation Phase: in this phase memory for varibles and function are created(This is first phase)(from start to end code).
+Code Exectiuon Phase: In this phase code is execuated. If a function call is made then in this phase then a local Execution Context is created.
