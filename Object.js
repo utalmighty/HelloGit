@@ -35,6 +35,7 @@ for(let i in crush) {
     console.log(i, crush[i]); // will print keys in object and their value 
     // Here we have to use square notation we can not use dot notation here😉.
     // We use bracket notation when the key is variable like in array and there we can not use . notation
+    // [] notataion the values is evaluated first.
 }
 let arr = [8,6,4,8,41,15];
 
